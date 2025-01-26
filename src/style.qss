@@ -1,0 +1,78 @@
+QWidget {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+QLabel#header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+QLabel#info_label{
+    text-align:center;
+}
+
+/* Information about exchange */
+QLabel {
+    font-size: 12px;
+    color: #333;
+}
+
+/* Input */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    background: #fff;
+    font-size: 16px;
+}
+
+QLineEdit:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* ComboBox */
+QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background: #fff;
+    font-size: 16px;
+}
+
+QComboBox:hover {
+    border-color: #007bff;
+}
+
+/* Swap button */
+QPushButton {
+    background: transparent;
+    border: none;
+}
+
+QPushButton:hover {
+    background: #e6e6e6;
+    border-radius: 5px;
+}
+
+/* Convert button */
+QPushButton#convert {
+    background: #28a745;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+QPushButton#convert:hover {
+    background: #218838;
+}
+
+QPushButton#convert:pressed {
+    background: #1e7e34;
+}
