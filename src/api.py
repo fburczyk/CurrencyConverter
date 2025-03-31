@@ -1,9 +1,14 @@
 import requests
-
+from dotenv import load_dotenv
+import os
 
 class CurrencyConverterAPI:
+
+    def configure():
+        load_dotenv()
+
     def __init__(self):
-        self.api_url = "https://v6.exchangerate-api.com/v6/4131c965c7bf772aafab3b1d/latest/"
+        self.api_url = os.getenv("api_key")
 
     def fetch_currencies(self):
         try:

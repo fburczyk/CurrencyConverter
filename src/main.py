@@ -7,3 +7,4 @@ if __name__ == "__main__":
     converter = CurrencyConverterApp()
     converter.show()
     sys.exit(app.exec_())
+    
